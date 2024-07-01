@@ -1,3 +1,9 @@
+:root {
+    --main-color: #b7dbd6 ;
+    --heading-color: #dda29b;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,8 +12,8 @@ body {
 }
 
 header {
-    background-color: #6b705c;
-    color: #fff;
+    background-color: var(--main-color);
+    color: var(--heading-color);
     padding: 20px 0;
     text-align: center;
 }
@@ -15,7 +21,8 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #6b705c;
+    background-color: var(--main-color);
+    color: var(--heading-color);
 }
 
 nav a {
@@ -41,7 +48,7 @@ nav a:hover {
 
 .section h2 {
     text-align: center;
-    color: #6b705c;
+    color: var(--main-color);
 }
 
 .services, .instructor, .contact {
@@ -61,7 +68,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #6b705c;
+    background-color: var(--main-color);
     color: white;
     text-align: center;
     padding: 10px 0;
