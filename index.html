@@ -12,37 +12,36 @@
 </head>
 
 <body>
-    <header class="row pt-5 gx-3 ">
+    <header class="header row pt-5 gx-3 ">
         <h1 class="col-4 bottom-0 ps-5">Yoga With Reba</h1>
         <nav class="col-8  p-4 bottom-0">
             <div class="row">
-                <a href="#home" class="col-2 button">Home</a>
-                <a href="#services" class="col-2">Services</a>
-                <a href="#instructor" class="col-2">About me</a>
-                <a href="#instructor" class="col-2">Client Stories</a>
-                <a href="#contact" class="col-2">Contact</a>
+                <a href="#home" class="col btn btn-link">Home</a>
+                <a href="#services" class="col btn btn-link">Services</a>
+                <a href="#instructor" class="col btn btn-link">About me</a>
+                <a href="#instructor" class="col btn btn-link">Client Stories</a>
+                <a href="#contact" class="col btn btn-link">Contact</a>
             </div>
         </nav>
     </header>
-    <style>
-        header {
-            background-color: #b7dbd6;
-        }
-    </style>
-    <div class="row ">
+
+    <!-- <div class="row ">
         <div class="col-6 w-50">
             <img src="./img/head-pic.jpg" alt="group yoga">
         </div>
         <div class="col-6 w-50">
             <img src="./img/Office-Yoga.jpg" alt="yoga in office">
         </div>
+    </div> -->
+    <div>
+        <img src="./img/Yoga-group.jpg" class="img-fluid" alt="group yoga">
     </div>
 
 
-    <div class="container">
+    <main class="container">
         <!-- Home Section -->
-        <section id="home" class="container border">
-            <h2>Yoga with Reba</h2>
+        <section id="home" class="container m-3">
+            <h2 class="text-center">Yoga with Reba</h2>
             <p>
                 At Yoga with Reba, we believe in the transformative power of yoga to bring balance, peace, and wellness
                 to your life. Whether you are a beginner or an experienced practitioner, we offer classes that cater to
@@ -51,44 +50,53 @@
         </section>
 
         <!-- Services Section -->
-        <section id="services" class="section">
-            <h2>Our Services</h2>
-            <div class="services row">
-                <div class="container col">
-                    <h3>Sound Healing</h3>
-                    <p>$180 45 min </p>
+        <section class="section m-3">
+            <h2 class="text-center" id="services">Our Services</h2>
+            <div class=" row mt-4">
+                <div class="container col-4 mt-2">
+                    <h5 class='text-center'><a href="./html/soundHealing.html">Sound Healing</a></h5>
+                    <p>Immerse yourself in a serene and transformative journey with our Sound Healing Yoga Class. This
+                        unique session combines the therapeutic power of yoga with the vibrational frequencies of sound
+                        healing instruments such as Tibetan singing bowls, crystal bowls, and gongs. </p>
                 </div>
-                <div class="container col">
-                    <h3>Chair Yoga</h3>
-                    <p>100 30 min A dynamic and fluid style of yoga that links breath with movement for a seamless and
-                        invigorating practice.</p>
+                <div class="container col-4 mt-2">
+                    <h5 class='text-center'><a href="./html/chair.html">Chair Yoga</a></h5>
+                    <p>Discover the benefits of yoga in a gentle, accessible way with our Chair Yoga Class. This
+                        inclusive session is designed for individuals who prefer or need the support of a chair, making
+                        it perfect for seniors, office workers, those with limited mobility, or anyone looking for a
+                        mindful approach to movement.</p>
                 </div>
-                <div class="container col">
-                    <h3>Restorative Yoga</h3>
-                    <p>150 45min A slow-paced style of yoga that targets deep connective tissues, promoting relaxation
-                        and flexibility.</p>
+                <div class="container col-4 mt-2">
+                    <h5 class='text-center'><a href="./html/restorative.html">Restorative Yoga</a></h5>
+                    <p>Enter a sanctuary of calm and rejuvenation with our Restorative Yoga Class. This deeply relaxing
+                        practice focuses on slowing down and opening your body through passive stretching, using props
+                        like blankets, bolsters, and blocks to support each pose and enhance your comfort.</p>
                 </div>
-                <div class="container col">
-                    <h3>Breath and Meditation</h3>
-                    <p>45 min 120$ A slow-paced style of yoga that targets deep connective tissues, promoting relaxation
-                        and flexibility.</p>
+                <div class="container col-4 mt-2">
+                    <h5 class='text-center'><a href="./html/breath.html">Breath and Meditation</a></h5>
+                    <p>Reconnect with your inner calm and clarity in our Breath and Meditation Class. This class is
+                        dedicated to the art of mindful breathing and meditation, offering a serene space to explore
+                        techniques that cultivate awareness, reduce stress, and enhance your overall sense of
+                        well-being.</p>
                 </div>
-                <div class="container col">
-                    <h3>Mindful Meditation Break </h3>
-                    <p>100 30 min A slow-paced style of yoga that targets deep connective tissues, promoting relaxation
-                        and flexibility.</p>
+                <div class="container col-4 mt-2">
+                    <h5 class='text-center'><a href="./html/mindful.html">Mindful Meditation Break</a> </h5>
+                    <p>Take a moment to pause and rejuvenate your mind and body with our Mindful Meditation Break. This
+                        brief, yet profound session is designed to fit into your busy day, providing a quick escape from
+                        stress and a refreshing dose of calm and clarity.</p>
                 </div>
-                <div class="container col">
-                    <h3>Yin Yoga</h3>
-                    <p>100 30 min A slow-paced style of yoga that targets deep connective tissues, promoting relaxation
-                        and flexibility.</p>
+                <div class="container col-4 mt-2">
+                    <h5 class='text-center'><a href="./html/yin.html">Yin Yoga</a></h5>
+                    <p>Dive into the tranquil and meditative practice of Yin Yoga, where stillness meets depth. This
+                        class is designed to stretch and rejuvenate the deeper connective tissues, promoting
+                        flexibility, circulation, and a sense of calm through long-held, passive poses.</p>
                 </div>
             </div>
         </section>
 
         <!-- Instructor Section -->
-        <section id="instructor" class="section">
-            <h2>Meet Our Instructor</h2>
+        <section id="instructor" class="section m-3">
+            <h2 class="text-center">Meet Our Instructor</h2>
             <div class="instructor">
                 <div>
                     <h3>Reba Daniels</h3>
@@ -100,23 +108,29 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="section">
-            <h2>Contact Us</h2>
-            <div class="contact">
-                <div>
+
+    </main>
+
+    <footer class="footer">
+        <section id="contact" class="mt-4 p-4">
+            <h2 class="text-center mb-3">Contact Us</h2>
+            <div class="row">
+                <div class="col text-center">
                     <h3>Email</h3>
                     <p>RebaLDaniels@gmail.com</p>
                 </div>
-                <div>
+                <div class="col text-center">
                     <h3>Phone</h3>
                     <p>(310) 344-1894</p>
                 </div>
+                <div class="col text-center">
+                    <h3>Socials</h3>
+                    <a href="https://www.instagram.com/rebalee?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class='text-center'>
+                        <img src="./img/insta.png"  alt="instagram emblem"></a>
+                </div>
             </div>
         </section>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Yoga with Reba. All rights reserved.</p>
+        <p class='text-center'>&copy; Yoga with Reba. All rights reserved.</p>
     </footer>
 
 </body>
